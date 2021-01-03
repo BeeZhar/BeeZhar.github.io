@@ -185,7 +185,7 @@ function fadeLoader() {
 
 
 $(window).on("load",function(){
-    setTimeout(fadeLoader, 2500);
+    setTimeout(fadeLoader, 3100);
 });
 
 
