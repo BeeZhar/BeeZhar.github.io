@@ -184,7 +184,7 @@ function fadeLoader() {
 };
 
 $(window).on("load",function(){
-    setTimeout(fadeLoader, 3400);
+    setTimeout(fadeLoader, 5000);
 });
 
 
