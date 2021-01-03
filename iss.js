@@ -183,9 +183,8 @@ function fadeLoader() {
     $(".loader-wrap").fadeOut("slow")
 };
 
-
 $(window).on("load",function(){
-    setTimeout(fadeLoader, 3100);
+    setTimeout(fadeLoader, 3400);
 });
 
 
