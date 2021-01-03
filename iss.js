@@ -174,7 +174,18 @@ map.on('load', function () {
             };  
         };
     });
-//End of onload map function  
+//End of onload map function
+});
+
+
+// Loading script
+function fadeLoader() {
+    $(".loader-wrap").fadeOut("slow")
+};
+
+
+$(window).on("load",function(){
+    setTimeout(fadeLoader, 2500);
 });
 
 
