@@ -119,7 +119,7 @@ html {
     width: 80%;
     height: 70%;
     margin: auto;
-    margin-bottom: 1px;
+    margin-bottom: 10px;
 }
 
 .mapContained {
@@ -146,7 +146,7 @@ html {
 .dataCells {
     height: 100%;
     width: 20%;
-    border: 0.6px solid #803cad;
+    border: 1px solid #803cad;
     max-height: 74px;
     min-height: 60px;
 }
@@ -176,10 +176,14 @@ html {
 @media (max-width: 900px) { 
     .mapContainer {
         width: 100%;
-        height: 90%;
+        height: 100%;
+        margin-bottom: 0;
     }
     #issData {
         width: 100%;
+    }
+    .dataCells{
+        border: 1.5px solid #803cad;
     }
 }
 
