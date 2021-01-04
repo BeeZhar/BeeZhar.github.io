@@ -9,6 +9,12 @@ html {
     height: 100%;
 }
 
+.leaflet-bottom, .leaflet-top {
+    z-index: 0 !important;
+    position: absolute;
+    pointer-events: none;
+}
+
 /* /////////// LOADER //////////////*/
 
 .loader-wrap {
