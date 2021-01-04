@@ -137,12 +137,6 @@ html {
     width: 80%;
 }
 
-.dataText {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-}
-
 .dataCells {
     height: 100%;
     width: 20%;
@@ -153,7 +147,7 @@ html {
 
 .dataCells h2 {
     font-family: 'Goldman', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 600;
     background: -webkit-linear-gradient(135deg,#AD30FF, rgb(223, 46, 143));
@@ -165,8 +159,10 @@ html {
 }
 
 .dataCells h3 {
-    font-family: 'Goldman', sans-serif;
-    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: white;
     text-align: center;
